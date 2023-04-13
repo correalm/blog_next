@@ -1,7 +1,7 @@
 import type { SiteConfig } from "@/lib/types";
 const siteConfig: SiteConfig = {
   avatar: "/avatar.png",
-  siteUrl: "https://nextjs-mdx-blog-theme.vercel.app",
+  siteUrl: "https://correalm.vercel.app/",
   siteName: "correalm",
   siteDescription:
     "Blog to my notes",
