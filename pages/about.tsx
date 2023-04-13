@@ -6,34 +6,25 @@ const About: NextPage = () => {
   return (
     <>
       <Page
-        title="About"
-        description="This is a brief description about the about page."
+        title="Sobre"
+        description="Fiz esse blog com a finalidade de guardar algumas notas sobre programação..."
       >
         <Prose>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sed
-            aliquam tempora nihil magni natus mollitia. Doloribus,
-            exercitationem iusto odio asperiores dolor, alias excepturi maxime
-            distinctio quod eum saepe eos!
+            Primeiro gostaria de dizer que a arquitetura desse blog não foi feita por mim.
+            Isto é um clone de:
           </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sed
-            aliquam tempora nihil magni natus mollitia. Doloribus,
-            exercitationem iusto odio asperiores dolor, alias excepturi maxime
-            distinctio quod eum saepe eos!
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sed
-            aliquam tempora nihil magni natus mollitia. Doloribus,
-            exercitationem iusto odio asperiores dolor, alias excepturi maxime
-            distinctio quod eum saepe eos!
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sed
-            aliquam tempora nihil magni natus mollitia. Doloribus,
-            exercitationem iusto odio asperiores dolor, alias excepturi maxime
-            distinctio quod eum saepe eos!
-          </p>
+          <a href="https://github.com/alexcarpenter/nextjs-mdx-blog-theme">esse repositório aqui!</a>
+
+          <hr />
+          <h3>
+            O único propósito é guardar algumas notas sobre meu trabalho e dia a dia como programador.
+          </h3>
+          <hr />
+
+          <label>
+            Obrigado por ler.
+          </label>
         </Prose>
       </Page>
     </>

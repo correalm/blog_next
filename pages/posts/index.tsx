@@ -11,10 +11,7 @@ interface PostsProps {
 const Posts: NextPage<PostsProps> = ({ posts }) => {
   return (
     <>
-      <Page
-        title="Posts"
-        description="Lorem ipsum dolor sit amet consectetur adipisicing elit."
-      >
+      <Page title="Posts" >
         <PostList posts={posts} />
       </Page>
     </>
